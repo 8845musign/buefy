@@ -224,7 +224,8 @@ export declare type NotificationConfig = {
     container?: string;
     queue?: boolean;
     indefinite?: boolean;
-    hasIcon?: boolean;
+    hasIcon?: boolea;
+    ariaCloseLabel?: string;
 }
 export declare const NotificationProgrammatic: {
     open: (params: NotificationConfig | string) => { close: () => any };
